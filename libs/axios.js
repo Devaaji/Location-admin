@@ -1,7 +1,7 @@
 import axios from "axios";
 import { parseCookies } from "nookies";
 
-const baseURL = "http://192.168.43.213:5050";
+const baseURL = "http://localhost:5050";
 
 const axiosInstance = axios.create({
   baseURL,

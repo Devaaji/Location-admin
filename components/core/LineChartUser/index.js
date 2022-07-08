@@ -67,9 +67,8 @@ const LineChartAdmin = (props) => {
               bottom: 5,
             }}
           >
-            <CartesianGrid strokeDasharray="3 3" />
+            <CartesianGrid strokeDasharray="1 1" />
             <XAxis dataKey="date" />
-            <YAxis />
             <Tooltip />
             <Legend />
             <Line
